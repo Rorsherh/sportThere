@@ -1,0 +1,10 @@
+@import 'blocks/header';
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  transition: all 0.2s ease-in;
+}
