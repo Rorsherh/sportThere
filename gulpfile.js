@@ -6,7 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');// автопрефиксы
 const sourcemaps = require('gulp-sourcemaps');// карты
 const notify = require('gulp-notify');// выводит сообщения об ошибках
 const plumber = require('gulp-plumber');// отслеживает и обрабатывает ошибки
-const fileinclude = require('gulp-file-include'); // сшивает HTML файлы
+const fileinclude = require('gulp-file-include'); // сшивает файлы из разбитых частей
 
 // собираем HTML файлы
 gulp.task('html', function(callback){
